@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تخزين وعرض موقع المستخدم</title>
+</head>
+<body>
+    <h2>اضغط للحصول على موقعي:</h2>
+    
+    <!-- زر الحصول على الموقع الجغرافي -->
+    <button onclick="getLocation()">احصل على موقعي</button>
+
+    <h3>موقعك الجغرافي:</h3>
+    <p id="locationInfo">موقعك سيظهر هنا...</p>
+
+    <!-- الخريطة لعرض الموقع -->
+    <div id="map" style="width: 100%; height: 400px;"></div> <!-- خريطة لعرض الموقع -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
